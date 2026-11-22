@@ -2,6 +2,7 @@ package com.devsuperior.integrations.resources;
 
 import com.devsuperior.integrations.dto.EmailDTO;
 import com.devsuperior.integrations.services.EmailService;
+import com.devsuperior.integrations.services.SendGridEmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
